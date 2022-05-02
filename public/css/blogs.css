@@ -1,0 +1,53 @@
+body{
+    z-index: 1;
+    background-color: white;
+}
+
+.column {
+    float: left;
+    width: 33%;
+    padding: 20px 10px;
+    z-index: 33;
+    
+  }
+
+
+
+  
+
+.row {margin: 0px -5px;} 
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+} 
+@media screen and (max-width: 1140px) {
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+      
+    }
+}
+
+.title{
+    margin: 30px;
+}
+.need {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    font-size: 20px;
+}
+
+
+.btn.active {
+    background-color: #666;
+    color: white;
+  }
+
+
+  
+
+
